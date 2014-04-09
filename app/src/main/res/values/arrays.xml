@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="level">
+        <item>@string/label_easy</item>
+        <item>@string/label_medium</item>
+        <item>@string/label_hard</item>
+    </array>
+    <string name="label_easy">Latwy</string>
+    <string name="label_medium">Sredni</string>
+    <string name="label_hard">Trudny</string>
+</resources>

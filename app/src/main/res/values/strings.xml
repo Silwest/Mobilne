@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aplikacje Mobilne</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="mobilne">Laboratoria</string>
+    <string name="text_button_lab01">Lab01</string>
+    <string name="text_button_lab02">Lab02</string>
+    <string name="lab01_title">Lab01</string>
+    <string name="lab01_button_continue">Kontynuuj</string>
+    <string name="lab01_button_new_game">Nowa gra</string>
+    <string name="lab01_button_info">Informacje</string>
+    <string name="lab01_button_exit">Wyjscie</string>
+    <string name="lab01_title_info">Informacje</string>
+    <string name="setting_label">Ustawienia</string>
+    <string name="options_category_title">First Category</string>
+    <string name="summary_auto_delate">Wyrzuc automatycznie</string>
+    <string name="summary_auto_delate_title">Automatycznie wyrzuc</string>
+    <string name="summary_pref">Opcje</string>
+    <string name="next_option">Kolejna opcja</string>
+    <string name="new_game_title">Nowa Gra</string>
+    <string name="text_exit">Wyjscie</string>
+
+</resources>

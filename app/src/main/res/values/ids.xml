@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="entry_text" type="id">Nazwa Wpisu</item>
+    <item name="lab02_new_entry_text" type="id">Nowy wpis</item>
+    <item name="lab02_button_add_new" type="id">Dodaj Nowy</item>
+    <item name="lab02_button_back" type="id">Wróć</item>
+</resources>

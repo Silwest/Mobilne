@@ -33,7 +33,8 @@ public class ListAdapter extends ArrayAdapter<Tasks> {
 
         View view = inflater.inflate(R.layout.lab02_main, parent, false);
 
-        TextView entryText = (TextView) view.findViewById(R.id.entry_text);
+        TextView entryText = (TextView) view.findViewById(R.id.lab02_text);
+
         entryText.setText(entryList.get(position).getText());
         return view;
     }

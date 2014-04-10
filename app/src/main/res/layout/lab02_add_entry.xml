@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
 
-</LinearLayout>
+    <LinearLayout
+        android:id="@+id/lab02_form_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        >
+            <EditText
+                android:id="@id/lab02_new_entry_text"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+            >
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@id/lab02_button_add_new"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dodaj zadanie"
+                android:textColor="#fff"
+                />
+        </LinearLayout>
+    <Button
+        android:id="@id/lab02_button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/lab02_form_layout"
+        android:layout_alignParentTop="true"
+        android:layout_margin="15dp"
+        android:textColor="#fff"
+        android:text="Wróć"
+        />
+
+</RelativeLayout>

@@ -22,6 +22,9 @@
         <activity android:name="lab01.Preferencje">
 
         </activity>
+        <activity android:name="lab02.database.AddTask">
+
+        </activity>
         <activity android:name="lab02.Main">
 
         </activity>

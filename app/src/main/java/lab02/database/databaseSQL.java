@@ -18,7 +18,7 @@ public class databaseSQL extends SQLiteOpenHelper{
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
-        sqLiteDatabase.execSQL("CREATE TABEL entry (_id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL);");
+        sqLiteDatabase.execSQL("CREATE TABLE entry (_id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL);");
     }
 
     @Override

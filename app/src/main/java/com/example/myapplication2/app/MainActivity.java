@@ -56,7 +56,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                 finish();
                 break;
             case R.id.button_lab02:
-                intent = new Intent(this, lab02.Main.class);
+                intent = new Intent(this, lab02.database.AddTask.class);
                 startActivity(intent);
                 break;
         }

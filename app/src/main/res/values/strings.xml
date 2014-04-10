@@ -21,5 +21,6 @@
     <string name="next_option">Kolejna opcja</string>
     <string name="new_game_title">Nowa Gra</string>
     <string name="text_exit">Wyjscie</string>
+    <string name="lab02_go_to_entry_text">Dodaj wpis</string>
 
 </resources>

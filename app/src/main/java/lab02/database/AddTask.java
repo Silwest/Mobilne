@@ -32,6 +32,7 @@ public class AddTask extends Activity implements View.OnClickListener{
 
         button_add_new.setOnClickListener(this);
         button_back.setOnClickListener(this);
+
     }
 
     @Override
@@ -52,6 +53,5 @@ public class AddTask extends Activity implements View.OnClickListener{
             this.finish();
             database_handler.closeDataBase();
         }
-
     }
 }
